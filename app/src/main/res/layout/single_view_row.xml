@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="6dp"
+    card_view:cardElevation="3dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <!-- Nome do país -->
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="3dp"/>
+
+        <!-- Capital name -->
+        <TextView
+            android:id="@+id/capital"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp" />
+
+        <!-- REgão -->
+        <TextView
+            android:id="@+id/region"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:padding="3dp"/>
+
+        <!-- subRegão -->
+        <TextView
+            android:id="@+id/subregion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:textSize="12sp" />
+
+        <!-- População -->
+        <TextView
+            android:id="@+id/population"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:padding="3dp"/>
+
+        <!-- Demon -->
+        <TextView
+            android:id="@+id/demonym"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:padding="3dp"/>
+
+        <!-- Area -->
+        <TextView
+            android:id="@+id/area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:padding="3dp"/>
+
+        <!-- Gina -->
+        <TextView
+            android:id="@+id/gini"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:padding="3dp"/>
+
+        <TextView
+            android:id="@+id/numericcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:padding="3dp"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
